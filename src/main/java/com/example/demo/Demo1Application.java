@@ -13,9 +13,8 @@ import java.util.Scanner;
 @SpringBootApplication
 public class Demo1Application {
 
-	private static final Logger log = LoggerFactory.getLogger(Demo1Application.class);
 	private static final FirstConsonantUtil util = new FirstConsonantUtil();
-	private static Trie db = new Trie();
+	private static final Trie db = new Trie();
 
 	public static void init() {
 		String[] shops = {
